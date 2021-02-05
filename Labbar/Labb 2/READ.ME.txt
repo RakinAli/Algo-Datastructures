@@ -1,0 +1,27 @@
+Assigment 1 - Assigment1_2_3.java
+
+- The assigment was to create an insertionsort. It was created as a method 
+
+Assigment 2 - Assigment1_2_3.java
+
+- The assigment was to count the amount of swaps created. It does it in the Insertion method
+
+Assigment 3 -  Assigment1_2_3.java
+
+- A method was created called "whatToInsert" that prints how the insertion will look like then does the insertion. 
+
+Assigment 4 - Assigment 4.c
+
+- The method "polarISATION" does the assigment. 
+
+Assigment 5 - Assigment5.java
+
+- Look at the graph 
+
+Assigment 6 - Assigment6.java 
+
+- Look at the file 
+
+		
+				HIGER GRADE PROBLEMS
+

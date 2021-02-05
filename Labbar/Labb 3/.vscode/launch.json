@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Task4",
+            "request": "launch",
+            "mainClass": "Task4",
+            "projectName": "Labb 3_2a3e04bb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Task3",
+            "request": "launch",
+            "mainClass": "Task3",
+            "projectName": "Labb 3_2a3e04bb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST<Labb 3_2a3e04bb>",
+            "request": "launch",
+            "mainClass": "BST",
+            "projectName": "Labb 3_2a3e04bb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearchST<Labb 3_2a3e04bb>",
+            "request": "launch",
+            "mainClass": "BinarySearchST",
+            "projectName": "Labb 3_2a3e04bb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Task2<Labb 3_2a3e04bb>",
+            "request": "launch",
+            "mainClass": "Task2",
+            "projectName": "Labb 3_2a3e04bb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "DoublyLinkedList"
+        }
+    ]
+}

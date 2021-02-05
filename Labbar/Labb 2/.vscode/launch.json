@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - del1_2",
+            "request": "launch",
+            "mainClass": "del1_2",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quick3way",
+            "request": "launch",
+            "mainClass": "Quick3way",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Assigment1_2_3",
+            "request": "launch",
+            "mainClass": "Assigment1_2_3",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - del1_2_3",
+            "request": "launch",
+            "mainClass": "del1_2_3",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - del1",
+            "request": "launch",
+            "mainClass": "del1",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Assigment6",
+            "request": "launch",
+            "mainClass": "Assigment6",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Assigment5",
+            "request": "launch",
+            "mainClass": "Assigment5",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Assigment1_2_3_5",
+            "request": "launch",
+            "mainClass": "Assigment1_2_3_5",
+            "projectName": "Labb 2_2a3e04ba"
+        },
+        {
+            "name": "gcc.exe - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "\\usr\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
+        }
+    ]
+}

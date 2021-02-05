@@ -1,0 +1,75 @@
+ //Add-fast function
+    public void addToQueue(int integer) 
+    {
+        //If the list is empty - First adds integer
+        if(isEmpty()) //Case scenario 1) - If the list is empty
+        {
+            Node nyaFirst = new Node(); //Becomes the first
+            nyaFirst.siffra_integer = integer; //Adds the integer to the list. 
+            first = nyaFirst; //First points to this node
+            length++; // Increases the length of the queue
+        }
+
+        else //General case - If the list size is >=1 - It will order the insertion automatically
+        {
+            //Creates a node
+            Node x = new Node();
+            x.siffra_integer = integer;
+            
+            // Pekare looks for the index where integer is larger than the previous and smaller than the next. 
+            Node pekare = first;
+            while(pekare.siffra_integer<=integer && pekare.next != null)
+                pekare = pekare.next;
+            
+            //Case 1 - Speciall fall - Om pekare pekar på first beror det antinge på size =1 eller integer < first
+            if(pekare == first)
+            {
+                //Special fall - om Size = 1 men integer är större än first.
+                if(first.siffra_integer<integer && size() ==1)
+                {
+                    first.next =x;
+                    x.previous = first;
+                    x.next = null;
+                    length++;
+                }
+                else // Special fall - Om size = 1 men integer är mindre än first. 
+                {
+                    x.next = first;
+                    x.previous = null;
+                    
+                    first.previous = x;
+                    first = x;
+                    length++;
+                }
+            }
+            //Case 2 - Speciall fall. Om Pekare.next pekar på null
+            else if(pekare.next == null)
+            {
+                // Special fall - Om pekare är större än integer
+                if(pekare.siffra_integer>=integer)
+                {
+                    pekare.previous.next = x;
+                    x.previous = pekare.previous;
+                    x.next = pekare;
+                    length++;
+                }
+                // Speciall fall - Om pekare är mindre än integer 
+                else
+                {
+                    pekare.next=x;
+                    x.previous = pekare;
+                    x.next=null;
+                    length++;
+                }
+            }
+            //Case 3 - General case - Just add it behind Pekare. 
+            else
+            {
+                pekare.previous.next = x; //Allt kopplad bakom pekare kopplas till x
+                x.previous = pekare.previous; // X kopplas tillbaka till pekare
+                x.next = pekare; //X kopplas till pekare. 
+                pekare.previous = x;
+                length++;
+            }
+        }
+    }
